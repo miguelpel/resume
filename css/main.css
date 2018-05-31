@@ -168,4 +168,10 @@ h2 {
     .content {
         display: contents;
     }
+    .codeContainer {
+        display: grid;
+        max-width: 230px;
+        grid-template-columns: 30% 70%;
+        padding-top: 10px;
+    }
 }
