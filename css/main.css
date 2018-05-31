@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-ExtraLight.otf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-Light.otf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-Regular.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-Medium.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-SemiBold.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-Bold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-ExtraBold.otf');
+    font-weight: 700;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Dosis';
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Dosis';
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Dosis';
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 10px;
+}
+
+.red {
+    color: #9a0007;
+}
+
+.blue {
+    color: #49599a;
+}
+
+.line {
+    color: rgb(179, 179, 179);
+    font-size: 3rem;
+}
+
+.header {
+    padding-bottom: 70px;
+}
+
+.logo {
+    font-family: 'Dosis';
+    display: inline;
+    padding: 2px;
+    font-size: 2.5rem;
+    border: 3px solid #9a0007;
+    position: relative;
+    top: -13px;
+}
+
+.name {
+    font-family: 'Dosis';
+    display: inline-block;
+    font-size: 2rem;
+    padding-left: 5px;
+}
+
+.name p {
+    font-family: 'Dosis';
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 2px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.content p {
+    font-weight: 200;
+}
+
+.left {
+    grid-column: 1 / 2;
+}
+
+.right {
+    grid-column: 2 / 3;
+}
+
+.leftCell {
+    max-width: 230px;
+}
+
+
+/* .codeCell p,
+.codeCell span {
+    line-height: 0px;
+} */
+
+.codeContainer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-top: 10px;
+}
+
+.nameCode {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: start;
+    align-self: start;
+    line-height: 18px;
+}
+
+.lineCode {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.codeLine {
+    align-self: start;
+    color: rgb(179, 179, 179);
+    font-size: 5rem;
+    line-height: 18px;
+    position: relative;
+    top: -27px;
+    left: -10px;
+}
