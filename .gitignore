@@ -1,4 +1,5 @@
 /.vscode
+/qr_code
 bitmap.png
 *.pdf
 *.sla
