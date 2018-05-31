@@ -166,12 +166,13 @@ h2 {
 
 @media screen and (max-width: 850px) {
     .content {
-        display: contents;
+        display: block;
     }
-    .codeContainer {
-        display: grid;
-        max-width: 230px;
-        grid-template-columns: 30% 70%;
-        padding-top: 10px;
+    .nameCode {
+        display: inline-block;
+    }
+    .lineCode {
+        display: inline-block;
+        float: right;
     }
 }
